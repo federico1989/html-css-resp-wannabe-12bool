@@ -42,3 +42,12 @@
 img {
   height: 200px;
 }
+
+@media all and (max-width: 768px) {
+  #lezioni, #why{
+    background-color: #f2f2cd;
+  }
+  #steps {
+    background-color: white;
+  }
+}
