@@ -1,16 +1,16 @@
-.row {
-  width: 992px;
+/* .row {
+  /* width: 992px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-}
+} */
 
 /* BLOCCO LEZIONI */
-#lezioni .row>.left,
+/* #lezioni .row>.left,
 #lezioni .row>.right {
   width: 50%;
   float: left;
-}
+} */
 
 #lezioni .row img {
   /* per centrare orizzontalmente */
@@ -24,13 +24,16 @@
 }
 
 /* BLOCCO STEPS */
-#steps .row>.left,
+/* #steps .row>.left,
 #steps .row>.central,
 #steps .row>.right {
   float: left;
   width: 33%;
-}
+} */
 
+.card {
+  height: 100%;
+}
 #steps {
   text-align: center;
 }
