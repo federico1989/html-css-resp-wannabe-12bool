@@ -3,20 +3,6 @@
   background-color: pink;
   border: 1px solid red;
 } */
-/* .debug [class*="col-"] > .row > [class*="col-"] {
-  height: 100%;
-}
-.debug [class*="col-"] > .row {
-  padding: 5px;
-  height: 100%;
-}  */
-/* .debug [class*="col-"] {
-  padding: 5px;
-  min-height: 190px;
-  max-height: 200px;
-  background-color: pink;
-  border: 1px solid red;
-} */
 
 *{
   margin: 0;

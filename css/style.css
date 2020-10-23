@@ -1,16 +1,6 @@
-/* .row {
-  /* width: 992px;
-  margin-left: auto;
-  margin-right: auto;
+.row {
   margin-top: 100px;
-} */
-
-/* BLOCCO LEZIONI */
-/* #lezioni .row>.left,
-#lezioni .row>.right {
-  width: 50%;
-  float: left;
-} */
+}
 
 #lezioni .row img {
   /* per centrare orizzontalmente */
@@ -23,17 +13,11 @@
   text-align: center;
 }
 
-/* BLOCCO STEPS */
-/* #steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
-  float: left;
-  width: 33%;
-} */
-
 .card {
   height: 100%;
+  margin-bottom: 15%;
 }
+
 #steps {
   text-align: center;
 }
@@ -43,13 +27,6 @@
   text-align: center;
 }
 
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-  width: 100%;
-  margin-top: 80px;
-}
-
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
@@ -57,11 +34,6 @@
 }
 
 /* COMMON */
-.row::after {
-  content: '';
-  display: table;
-  clear: both;
-}
 
 .container.grey {
   background-color: #f9f9f9;
@@ -69,8 +41,4 @@
 
 img {
   height: 200px;
-}
-
-.clear {
-  clear: both;
 }
